@@ -34,7 +34,7 @@ class AutocompleteConfigResolver implements AutocompleteConfigResolverInterface
      */
     public function getIsEnabled(): bool
     {
-        return $this->scopeConfig->getValue(self::PATH_IS_ENABLED);
+        return (bool) $this->scopeConfig->getValue(self::PATH_IS_ENABLED);
     }
 
     /**
