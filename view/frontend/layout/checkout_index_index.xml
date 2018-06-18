@@ -29,7 +29,7 @@
                                                         <item name="shipping-address-fieldset" xsi:type="array">
                                                             <item name="children" xsi:type="array">
                                                                 <item name="region" xsi:type="array">
-                                                                    <item name="visible" xsi:type="boolean">true</item>
+                                                                    <item name="visible" xsi:type="boolean">false</item>
                                                                     <item name="config" xsi:type="array">
                                                                         <!-- Assigning a new template -->
                                                                         <item name="elementTmpl" xsi:type="string">CtiDigital_GoogleAddressLookup/form/element/region</item>

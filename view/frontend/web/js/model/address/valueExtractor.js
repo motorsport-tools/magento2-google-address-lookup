@@ -29,10 +29,10 @@ define([], function () {
             if(fieldsString=="administrative_area_level_1" || fieldsList[i]=="administrative_area_level_1") {
                 if (document.getElementById('region_id') || document.getElementsByName('region_id')[0]) {
                     var regionSelector = document.getElementById('region_id') || document.getElementsByName('region_id')[0];
-                    var region = address[fieldsString];
-                    for (i = 0; i < regionSelector.length; i++) {
-                        if (regionSelector.options[i].text === region) {
-                            regionSelector.selectedIndex = i;
+                    var regionName = address[fieldsString];
+                    for (var j = 0; j < regionSelector.length; j++) {
+                        if (regionSelector.options[j].text === regionName) {
+                            return regionSelector.options[j].value;
                             break;
                         }
                     }

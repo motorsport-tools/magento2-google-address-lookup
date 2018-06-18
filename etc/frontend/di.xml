@@ -27,6 +27,7 @@
                 <item name="postcode" xsi:type="string">postal_code</item>
                 <item name="zip" xsi:type="string">postal_code</item>
                 <item name="region" xsi:type="string">administrative_area_level_1</item>
+                <item name="region_id" xsi:type="string">administrative_area_level_1</item>
             </argument>
         </arguments>
     </type>
@@ -63,6 +64,11 @@
                 <item name="region" xsi:type="array">
                     <item name="component" xsi:type="string">CtiDigital_GoogleAddressLookup/js/form/element/input</item>
                     <item name="sortOrder" xsi:type="string">140</item>
+                    <item name="visible" xsi:type="boolean">true</item>
+                </item>
+                <item name="region_id" xsi:type="array">
+                    <item name="component" xsi:type="string">CtiDigital_GoogleAddressLookup/js/form/element/regionSelect</item>
+                    <item name="sortOrder" xsi:type="string">145</item>
                     <item name="visible" xsi:type="boolean">true</item>
                 </item>
                 <item name="postcode" xsi:type="array">

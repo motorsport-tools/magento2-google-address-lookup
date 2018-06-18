@@ -42,7 +42,7 @@ class AutocompleteConfigResolver implements AutocompleteConfigResolverInterface
      */
     public function getUseRegions(): bool
     {
-        return $this->scopeConfig->getValue(self::PATH_USE_REGIONS);
+        return (bool) $this->scopeConfig->getValue(self::PATH_USE_REGIONS);
     }
 
     /**
