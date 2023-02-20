@@ -45,6 +45,7 @@
                     <item name="label" xsi:type="string">Address Finder</item>
                     <item name="provider" xsi:type="string">checkoutProvider</item>
                     <item name="sortOrder" xsi:type="string">110</item>
+                    <item name="placeholder" xsi:type="string">Start typing your address</item>
                 </item>
                 <item name="telephone" xsi:type="array">
                     <item name="sortOrder" xsi:type="string">50</item>
